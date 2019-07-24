@@ -1,0 +1,11 @@
+
+
+<div class="cards m-4">
+<% @restaurants.each do |restaurant| %>
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+
+       <%= link_to "#{restaurant.name}",restaurant_path(restaurant), class: "text"%>
+   </p>
+    </div>
+    <% end %>
+</div>
