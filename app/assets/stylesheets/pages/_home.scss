@@ -34,7 +34,7 @@ h1 {
 }
 
 .card-product p {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
@@ -64,6 +64,10 @@ h1 {
   }
 }
 
+#show {
+  opacity:1;
+}
+
 a.text {
   text-decoration: none;
   color: white;
@@ -75,7 +79,9 @@ a.text {
   grid-gap: 16px;
 }
 
-
+#card-infomation {
+  background: rgb(188,187,188);
+}
 
 
 // Smallest device
